@@ -15,6 +15,7 @@
 		8BA67BB8245ED18E00AA1B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA67BB6245ED18E00AA1B9D /* LaunchScreen.storyboard */; };
 		8BA67BC3245ED18E00AA1B9D /* SwiftUI_with_UIAlertControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA67BC2245ED18E00AA1B9D /* SwiftUI_with_UIAlertControllerTests.swift */; };
 		8BA67BCE245ED18F00AA1B9D /* SwiftUI_with_UIAlertControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA67BCD245ED18F00AA1B9D /* SwiftUI_with_UIAlertControllerUITests.swift */; };
+		8BA67BDC245ED1E000AA1B9D /* AlertControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA67BDB245ED1E000AA1B9D /* AlertControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8BA67BC9245ED18E00AA1B9D /* SwiftUI with UIAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI with UIAlertControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA67BCD245ED18F00AA1B9D /* SwiftUI_with_UIAlertControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_with_UIAlertControllerUITests.swift; sourceTree = "<group>"; };
 		8BA67BCF245ED18F00AA1B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA67BDB245ED1E000AA1B9D /* AlertControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8BA67BAB245ED18A00AA1B9D /* AppDelegate.swift */,
 				8BA67BAD245ED18A00AA1B9D /* SceneDelegate.swift */,
 				8BA67BAF245ED18A00AA1B9D /* ContentView.swift */,
+				8BA67BDB245ED1E000AA1B9D /* AlertControlView.swift */,
 				8BA67BB1245ED18E00AA1B9D /* Assets.xcassets */,
 				8BA67BB6245ED18E00AA1B9D /* LaunchScreen.storyboard */,
 				8BA67BB9245ED18E00AA1B9D /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA67BAC245ED18A00AA1B9D /* AppDelegate.swift in Sources */,
+				8BA67BDC245ED1E000AA1B9D /* AlertControlView.swift in Sources */,
 				8BA67BAE245ED18A00AA1B9D /* SceneDelegate.swift in Sources */,
 				8BA67BB0245ED18A00AA1B9D /* ContentView.swift in Sources */,
 			);
